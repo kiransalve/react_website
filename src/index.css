@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+/* 
+===================================================================
+========================== Navbar CSS ===============================
+=================================================================== */
+.navbar {
+  background-color: #fff;
+}
+.navbar-brand {
+  font-size: 1.9rem !important;
+  color: rgba(111, 12, 136, 0.87) !important;
+}
+.navbar a {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+.navbar a:hover {
+  color: rgba(111, 12, 136, 0.87) !important;
+}
+.menu_active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+/* 
+===================================================================
+==========================  Home CSS ==============================
+=================================================================== */
+#header {
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+
+#header h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+}
+#header .brand-name {
+  color: rgba(111, 12, 136, 0.87);
+}
+#header h2 {
+  color: #484848;
+  font-size: 24px;
+}
+.btn-get-started {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #b71acc;
+  border: 2px solid #b71aaa;
+  text-decoration: none;
+}
+.btn-get-started:hover {
+  background-color: #b71acc;
+  color: #fff;
+}
+.header-img {
+  text-align: right;
+}
+.animated {
+  animation: updown 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
+
+/* =============Contact ====================== */
+.contact_div {
+  transform: scale(0.78);
+  margin-top: -80px;
+}
