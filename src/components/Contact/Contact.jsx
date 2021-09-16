@@ -22,7 +22,7 @@ const Contact = () => {
   const formSubmit = (e) => {
     e.preventDefault();
     alert(
-      // // `Hello ${data.fullname}, we will contact you on your no. - ${data.phone} and will update you on your email - ${data.email}, Thanks you so much!!!`
+      `Hello ${data.fullname}, we will contact you on your no. - ${data.phone} and will update you on your email - ${data.email}, Thanks you so much!!!`
     );
   };
   return (
